@@ -1,0 +1,8 @@
+{
+  "/OEKOBAU.DAT": {
+    "target": "https://oekobaudat.de",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

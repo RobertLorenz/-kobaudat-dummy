@@ -1,0 +1,9 @@
+<div>
+  <h2>EN 15804+A1</h2>
+  <pre *ngIf="compliance1Data">{{ compliance1Data | json }}</pre>
+  <p *ngIf="!compliance1Data">Loading EN 15804+A1 data...</p>
+
+  <h2>EN 15804+A2</h2>
+  <pre *ngIf="compliance2Data">{{ compliance2Data | json }}</pre>
+  <p *ngIf="!compliance2Data">Loading EN 15804+A2 data...</p>
+</div>
